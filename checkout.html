@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+
+    <!-- Your existing CSS files -->
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="styles.css"> <!-- if you create a new file -->
+</head>
+
+<body>
+
+    <!--  EVERYTHING BELOW GOES INSIDE THE <body>  -->
+    <div class="checkout-overlay">
+      <div class="checkout-container">
+
+        <!-- Top Navigation Tabs -->
+        <div class="checkout-tabs">
+          <button class="tab active">Card</button>
+          <button class="tab">Pay on Delivery</button>
+        </div>
+
+        <!-- Card Preview -->
+        <div class="card-preview">
+          <img src="images/your-card-image.png" alt="Card Preview">
+        </div>
+
+        <!-- Form -->
+        <form class="checkout-form">
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label>Card Number</label>
+              <input type="text" placeholder="5339 4532 7890 7890">
+              <span class="small-text">Egbetayo Damilola Ezekiel</span>
+            </div>
+
+            <div class="form-group">
+              <label>Account Type</label>
+              <input type="text" placeholder="Savings Account">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>Expiry Date</label>
+              <select>
+                <option>09 – September – 2023</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Amount</label>
+              <input type="text" placeholder="₦ 56,000">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>PIN</label>
+              <input type="password" placeholder="••••">
+            </div>
+
+            <div class="form-group">
+              <label>Description</label>
+              <input type="text" placeholder="Payment for fabrics">
+            </div>
+          </div>
+
+          <div class="subtotal-row">
+            <span>Subtotal: ₦56,000</span>
+
+            <label class="toggle">
+              <span>Save for later</span>
+              <input type="checkbox">
+              <span class="slider"></span>
+            </label>
+          </div>
+
+          <button class="checkout-submit">Proceed to checkout</button>
+
+        </form>
+
+      </div>
+    </div>
+
+    <!-- Your JS if needed -->
+    <script src="scripts.js"></script>
+
+</body>
+</html>

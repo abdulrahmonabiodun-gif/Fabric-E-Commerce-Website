@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard - Fabric Store</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Dashboard Page: index.html -->
+  <div class="main-container">
+<!-- Sidebar Navigation -->
+<nav class="sidebar">
+
+    <img src="images/Group 33690 (1).png" class="logo-icon" alt="">
+
+
+  <ul>
+    <li><a href="index.html"><img src="images/Box 12.png" class="icon" alt=""> Dashboard</a></li>
+    <li><a href="distribution.html"><img src="images/share-2.png" class="icon" alt=""> Distribution</a></li>
+    <li><a href="saved-items.html"><img src="images/Love.png" class="icon" alt=""> Saved Items</a></li>
+    <li><a href="collections.html"><img src="images/Map.png" class="icon" alt=""> Collections</a></li>
+    <li><a href="#"><img src="images/Wallet.png" class="icon" alt=""> Wallet</a></li>
+    <li><a href="#"><img src="images/Group 36864.png" class="icon" alt=""> Edit Profile</a></li>
+    <li><a href="#"><img src="images/Message 16.png" class="icon" alt=""> Contact Support</a></li>
+    <li><a href="#"><img src="images/Logout.png" class="icon" alt=""> Logout</a></li>
+  </ul>
+</nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+<!-- HEADER CONTAINER -->
+<div class="top-header">
+
+    <div class="header-left">
+        <p class="greeting">Good morning <span>Johnson</span></p>
+        <img src="images/Profile.png" class="bell-icon">
+    </div>
+
+    <div class="header-search">
+        <div class="search-input">
+            <img src="images/Group 21.png" class="search-icon">
+            <input type="text" placeholder="Search Items">
+        </div>
+
+        <button class="search-btn">Search</button>
+    </div>
+
+</div>
+
+<!-- 3 TOP CARDS -->
+<div class="top-cards">
+
+    <div class="top-card">
+        <img src="images/Vector.png" class="card-icon">
+        <h3>Distributions</h3>
+    </div>
+
+    <div class="top-card">
+        <img src="images/Group 33717.png" class="card-icon">
+        <h3>Orders</h3>
+    </div>
+
+    <div class="top-card">
+        <img src="images/Group 33718.png" class="card-icon">
+        <h3>Connect with Stylists</h3>
+    </div>
+
+</div>
+
+
+
+
+<div class="product-grid">
+
+    <!-- PRODUCT 1 -->
+<div class="product-card">
+
+    <!-- CLICKABLE IMAGE -->
+    <a href="product-details.html" class="product-link">
+        <div class="img-wrapper">
+            <img src="images/unsplash_QK_VtGYQV_U (1).png" alt="Fabric 1">
+        </div>
+    </a>
+
+    <div class="product-info">
+        <!-- CLICKABLE TITLE -->
+        <a href="product-details.html" class="product-link">
+            <h4 class="product-title">Linen Vintage</h4>
+        </a>
+
+        <span class="product-price">₦20000</span>
+    </div>
+
+    <div class="product-meta">
+        <div class="avatars">
+            <img src="images/Group 778.png">
+        </div>
+        <span class="stock">40 units in stock</span>
+    </div>
+
+    <!-- NOT CLICKABLE (only for adding to cart) -->
+    <button class="add-cart-btn"
+        data-id="linen-vintage"
+        data-name="Linen Vintage"
+        data-price="20000"
+        data-img="images/unsplash_QK_VtGYQV_U (1).png">
+        Add to cart
+    </button>
+
+</div>
+
+
+<div class="product-card">
+
+    <!-- CLICKABLE IMAGE -->
+    <a href="product-details.html" class="product-link">
+        <div class="img-wrapper">
+            <img src="images/unsplash_QK_VtGYQV_U (2).png" alt="Fabric 2">
+        </div>
+    </a>
+
+    <div class="product-info">
+        <!-- CLICKABLE TITLE -->
+        <a href="product-details.html" class="product-link">
+            <h4 class="product-title">Silk Vintage</h4>
+        </a>
+        <span class="product-price">₦25000</span>
+    </div>
+
+    <div class="product-meta">
+        <div class="avatars">
+            <img src="images/Group 778.png">
+        </div>
+        <span class="stock">32 units in stock</span>
+    </div>
+
+    <button class="add-cart-btn"
+        data-id="silk-vintage"
+        data-name="Silk Vintage"
+        data-price="25000"
+        data-img="images/unsplash_QK_VtGYQV_U (2).png">
+        Add to cart
+    </button>
+
+</div>
+
+
+
+
+<div class="product-card">
+
+    <a href="product-details.html" class="product-link">
+        <div class="img-wrapper">
+            <img src="images/unsplash_QK_VtGYQV_U (3).png" alt="Fabric 3">
+        </div>
+    </a>
+
+    <div class="product-info">
+        <a href="product-details.html" class="product-link">
+            <h4 class="product-title">Ankara Vintage</h4>
+        </a>
+        <span class="product-price">₦15000</span>
+    </div>
+
+    <div class="product-meta">
+        <div class="avatars">
+            <img src="images/Group 778.png">
+        </div>
+        <span class="stock">50 units in stock</span>
+    </div>
+
+    <button class="add-cart-btn"
+        data-id="ankara-vintage"
+        data-name="Ankara Vintage"
+        data-price="15000"
+        data-img="images/unsplash_QK_VtGYQV_U (3).png">
+        Add to cart
+    </button>
+
+</div>
+
+
+
+<div class="product-card">
+
+    <a href="product-details.html" class="product-link">
+        <div class="img-wrapper">
+            <img src="images/unsplash_QK_VtGYQV_U (4).png" alt="Fabric 4">
+        </div>
+    </a>
+
+    <div class="product-info">
+        <a href="product-details.html" class="product-link">
+            <h4 class="product-title">Thick Vintage</h4>
+        </a>
+        <span class="product-price">₦18000</span>
+    </div>
+
+    <div class="product-meta">
+        <div class="avatars">
+            <img src="images/Group 778.png">
+        </div>
+        <span class="stock">28 units in stock</span>
+    </div>
+
+    <button class="add-cart-btn"
+        data-id="thick-vintage"
+        data-name="Thick Vintage"
+        data-price="18000"
+        data-img="images/unsplash_QK_VtGYQV_U (4).png">
+        Add to cart
+    </button>
+
+</div>
+
+
+
+
+<div class="product-card">
+
+    <a href="product-details.html" class="product-link">
+        <div class="img-wrapper">
+            <img src="images/unsplash_QK_VtGYQV_U.png" alt="Fabric 5">
+        </div>
+    </a>
+
+    <div class="product-info">
+        <a href="product-details.html" class="product-link">
+            <h4 class="product-title">Lace Vintage</h4>
+        </a>
+        <span class="product-price">₦30000</span>
+    </div>
+
+    <div class="product-meta">
+        <div class="avatars">
+            <img src="images/Group 778.png">
+        </div>
+        <span class="stock">18 units in stock</span>
+    </div>
+
+    <button class="add-cart-btn"
+        data-id="lace-vintage"
+        data-name="Lace Vintage"
+        data-price="30000"
+        data-img="images/unsplash_QK_VtGYQV_U.png">
+        Add to cart
+    </button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+    <a href="product-details.html" class="product-link">
+        <div class="img-wrapper">
+            <img src="images/unsplash_QK_VtGYQV_U (0).png" alt="Fabric 6">
+        </div>
+    </a>
+
+    <div class="product-info">
+        <a href="product-details.html" class="product-link">
+            <h4 class="product-title">Thin Vintage</h4>
+        </a>
+        <span class="product-price">₦17500</span>
+    </div>
+
+    <div class="product-meta">
+        <div class="avatars">
+            <img src="images/Group 778.png">
+        </div>
+        <span class="stock">22 units in stock</span>
+    </div>
+
+    <button class="add-cart-btn"
+        data-id="thin-vintage"
+        data-name="Thin Vintage"
+        data-price="17500"
+        data-img="images/unsplash_QK_VtGYQV_U (0).png">
+        Add to cart
+    </button>
+
+</div>
+
+
+
+
+
+</div>
+    </main>
+
+  <!-- CART PANEL (right) - REPLACE YOUR CURRENT CART PANEL WITH THIS -->
+<aside class="cart-panel" role="complementary" aria-label="Shopping cart">
+
+  <div class="cart-header">
+    <h2>Cart Items</h2>
+    <div class="cart-icon-wrap">
+      <img src="images/Group 36865.png" class="cart-icon">
+      <img src="images/Group 36866.png" class="cart-badge">
+    </div>
+  </div>
+
+  <!-- DYNAMIC CART ITEMS WILL RENDER HERE -->
+  <div id="cart-items"></div>
+
+  <!-- Checkout button -->
+<a href="checkout.html">
+  <button type="button" class="checkout-btn">Proceed to checkout</button>
+</a>
+  <!-- Adverts section stays untouched -->
+<div class="cart-adverts-wrapper">
+  <div class="adverts-head">
+    <span>Stay up to date with our adverts here</span>
+    <span class="ad-count">3 / 5</span>
+  </div>
+
+  <div class="cart-adverts">
+    <img src="images/Rectangle 998.png" class="ad-img ad-top">
+    <img src="images/Rectangle 997.png" class="ad-img ad-mid">
+    <img src="images/Rectangle 994.png" class="ad-img ad-mid-2">
+    <img src="images/Rectangle 995.png" class="ad-img ad-mid-3">
+    <img src="images/Rectangle 996.png" class="ad-img ad-bottom">
+  </div>
+</div>
+</div>
+</aside>
+ 
+  <script>
+//ADVERT SIDE BAR
+
+
+const adverts = document.querySelectorAll(".cart-adverts .ad-img");
+let currentIndex = 0;
+let interval;
+
+// Position images vertically
+adverts.forEach((img, i) => {
+    img.style.transform = `translateY(${i * 30}%)`;
+});
+
+// Start auto-rotation
+function startCarousel() {
+    interval = setInterval(() => {
+        currentIndex = (currentIndex + 1) % adverts.length;
+
+        adverts.forEach((img, i) => {
+            img.style.transform = `translateY(${(i - currentIndex) * 30}%)`;
+        });
+    }, 3000);
+}
+
+// Pause on hover
+document.querySelector(".cart-adverts")
+    .addEventListener("mouseenter", () => clearInterval(interval));
+
+// Resume when mouse leaves
+document.querySelector(".cart-adverts")
+    .addEventListener("mouseleave", startCarousel);
+
+startCarousel();
+
+
+
+//Look up later
+let cart = [];
+
+// ADD EVENT LISTENER TO ALL ADD BUTTONS
+document.querySelectorAll(".add-cart-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.id;
+    const name = btn.dataset.name;
+    const price = Number(btn.dataset.price);
+    const img = btn.dataset.img;
+
+    const existingItem = cart.find(item => item.id === id);
+
+    if (existingItem) {
+      existingItem.qty += 1;
+    } else {
+      cart.push({
+        id,
+        name,
+        price,
+        img,
+        qty: 1
+      });
+    }
+
+    renderCart();
+  });
+});
+
+// RENDER CART INTO THE SIDEBAR
+function renderCart() {
+  const cartContainer = document.getElementById("cart-items");
+
+  if (cart.length === 0) {
+    cartContainer.innerHTML = "<p style='text-align:center;color:#999;'>No items in cart</p>";
+    return;
+  }
+
+  cartContainer.innerHTML = cart.map(item => `
+    <div class="cart-item">
+      <img class="cart-thumb" src="${item.img}">
+
+      <div class="cart-item-body">
+        <div class="cart-item-top">
+          <div class="cart-title">${item.name}</div>
+
+          <div class="qty-box">
+            <button class="qty-btn" onclick="changeQty('${item.id}', -1)">−</button>
+            <div class="qty">${item.qty}</div>
+            <button class="qty-btn" onclick="changeQty('${item.id}', 1)">+</button>
+          </div>
+        </div>
+
+        <button class="remove-item" onclick="removeItem('${item.id}')">Remove Item</button>
+      </div>
+    </div>
+  `).join("");
+}
+
+// CHANGE ITEM QUANTITY
+function changeQty(id, amount) {
+  const item = cart.find(i => i.id === id);
+  if (!item) return;
+
+  item.qty += amount;
+
+  if (item.qty <= 0) {
+    cart = cart.filter(i => i.id !== id);
+  }
+
+  renderCart();
+}
+
+// REMOVE ITEM COMPLETELY
+function removeItem(id) {
+  cart = cart.filter(i => i.id !== id);
+  renderCart();
+}
+
+// Make functions globally accessible
+window.changeQty = changeQty;
+window.removeItem = removeItem;
+</script>
+
+</body>
+</html>
